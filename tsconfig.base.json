@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@shiv-monorepo/footer": ["libs/footer/src/index.ts"],
+      "@shiv-monorepo/header": ["libs/header/src/index.ts"],
+      "@shiv-monorepo/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

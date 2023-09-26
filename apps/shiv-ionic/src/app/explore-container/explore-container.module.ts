@@ -6,10 +6,10 @@ import { IonicModule } from '@ionic/angular';
 
 import { ExploreContainerComponent } from './explore-container.component';
 import { HeaderComponent } from '@shiv-monorepo/header';
-import { ButtonComponent } from '@shiv-monorepo/ionic-lib'; 
+import { ButtonComponent , SlidebarComponent } from '@shiv-monorepo/ionic-lib'; 
 
 @NgModule({
-  imports: [CommonModule, FormsModule, IonicModule, HeaderComponent , ButtonComponent],
+  imports: [CommonModule, FormsModule, IonicModule, HeaderComponent , ButtonComponent, SlidebarComponent],
   declarations: [ExploreContainerComponent],
   exports: [ExploreContainerComponent],
 })

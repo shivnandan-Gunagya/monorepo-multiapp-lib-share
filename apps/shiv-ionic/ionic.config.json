@@ -1,0 +1,7 @@
+{
+  "name": "shiv-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -15,8 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@shiv-monorepo/button-library": ["ionic-lib/src/index.ts"],
       "@shiv-monorepo/footer": ["libs/footer/src/index.ts"],
       "@shiv-monorepo/header": ["libs/header/src/index.ts"],
+      "@shiv-monorepo/ionic-lib": ["libs/ionic-lib/src/index.ts"],
       "@shiv-monorepo/ui": ["libs/ui/src/index.ts"]
     }
   },
